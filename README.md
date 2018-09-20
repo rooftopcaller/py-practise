@@ -12,5 +12,5 @@
  进入文件目录执行（下面两个库优先使用文件安装）:
  - pip install scipy-1.1.0-cp36-cp36m-win_amd64.whl
  - pip install scikit_learn-0.19.2-cp36-cp36m-win_amd64.whl 
- - 其他包 pandas‑0.23.4‑cp36‑cp36m‑win_amd64.whl numpy‑1.15.1+mkl‑cp36‑cp36m‑win_amd64.whl matplotlib‑3.0.0‑cp36‑cp36m‑win_amd64.whl
+ 其他包 pandas‑0.23.4‑cp36‑cp36m‑win_amd64.whl numpy‑1.15.1+mkl‑cp36‑cp36m‑win_amd64.whl matplotlib‑3.0.0‑cp36‑cp36m‑win_amd64.whl
  
