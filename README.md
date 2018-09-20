@@ -21,8 +21,8 @@
  官网下载，安装过程中一路next
 
 ### 配置账户信息
- git config --global user.name "rooftopcaller"              //GitHub用户名
- git config --global user.email benmeimann@gmail.com   //GitHub注册邮箱
+ - git config --global user.name "rooftopcaller"              //GitHub用户名
+  git config --global user.email benmeimann@gmail.com   //GitHub注册邮箱
 
 ### 配置本地SSH
  ssh-keygen -t rsa -C "benmeimann@gmail.com" 一路回车，最终获取.ssh/id_rsa.pub文件中的内容
