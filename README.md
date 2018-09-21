@@ -21,8 +21,8 @@
  官网下载，安装过程中一路next
 
 ### 配置账户信息
- - git config --global user.name "rooftopcaller"              //GitHub用户名
-  git config --global user.email benmeimann@gmail.com   //GitHub注册邮箱
+ - git config --global user.name "rooftopcaller"         //GitHub用户名
+ - git config --global user.email benmeimann@gmail.com   //GitHub注册邮箱
 
 ### 配置本地SSH
  ssh-keygen -t rsa -C "benmeimann@gmail.com" 一路回车，最终获取.ssh/id_rsa.pub文件中的内容
@@ -30,6 +30,7 @@
  登录GitHub，点击Settings——SSH and GPG keys——点击右侧Add SSH key，新建SSH key，将上面步骤获取内容黏贴进去，添加SSH Key
 
 ### 从GitHub下载工程
+ 如果无法访问互联网，要先设置代理：git config --global http.proxy http://[域账号]:[域密码]@[ProxyUrl]:[Port],若密码中带有特殊字符如"@"等，需要用"\"转义
  - 新建本地仓库：直接在文件夹上右击选择“Git Bash Here"
  - 初始化本地仓库：git init d/PythonB/Git
  - 下载GitHub工程：git clone https://github.com/rooftopcaller/py-practise.git
