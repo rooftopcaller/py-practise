@@ -6,8 +6,8 @@
 ### 自动获取安装包安装
  如果是无法访问互联网，要配置pip源地址（下面几个库优先使用这种方式安装）
  - pip install numpy
- - pip install pandas
- - pip install matplotlib
+ - pip install pandas （安装过程中自动获取：pytz six python-dateutil pandas）
+ - pip install matplotlib （安装过程中自动获取：cycler pyparsing matplotlib）
 ### 从内网获取
  配置C:\Users\XXX\pip\pip.ini 设置内网库地址，安装时使用：pip install numpy --trusted-host 内网地址
 ### 获取whl文件安装
