@@ -8,15 +8,18 @@
  - pip install numpy
  - pip install pandas
  - pip install matplotlib
- 
+### 从内网获取
+ 配置C:\Users\XXX\pip\pip.ini 设置内网库地址，安装时使用：pip install numpy --trusted-host 内网地址
 ### 获取whl文件安装
  [[点击获取文件]](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
  进入文件目录执行（下面两个库优先使用文件安装）:
  - pip install scipy-1.1.0-cp36-cp36m-win_amd64.whl
  - pip install scikit_learn-0.19.2-cp36-cp36m-win_amd64.whl 
  - 其他包 pandas‑0.23.4‑cp36‑cp36m‑win_amd64.whl numpy‑1.15.1+mkl‑cp36‑cp36m‑win_amd64.whl matplotlib‑3.0.0‑cp36‑cp36m‑win_amd64.whl
- 
-## Git
+### 通过源码
+  使用命令：python setup.py install
+  
+## Git安装配置
 ### 安装
  官网下载，安装过程中一路next
 
