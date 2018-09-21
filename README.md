@@ -8,9 +8,8 @@
  - pip install numpy
  - pip install pandas （安装过程中自动获取：pytz six python-dateutil pandas）
  - pip install matplotlib （安装过程中自动获取：cycler pyparsing matplotlib）
-### 从内网获取
- 要配置内网pip源地址
- 配置C:\Users\XXX\pip\pip.ini 设置内网库地址，安装时使用：pip install numpy --trusted-host 内网地址
+### 从内网自动获取
+ 要配置内网pip源地址：在C:\Users\XXX\pip\pip.ini 设置内网库地址，安装时使用：pip install numpy --trusted-host 内网地址
 ### 获取whl文件安装
  [[点击获取文件]](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
  进入文件目录执行（下面两个库优先使用文件安装）:
