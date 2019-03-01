@@ -35,6 +35,6 @@
 ### 从GitHub下载工程
  如果无法访问互联网，要先设置代理：git config --global http.proxy http://[域账号]:[域密码]@[ProxyUrl]:[Port],若密码中带有特殊字符如"@"等，需要用"\"转义
  - 新建本地仓库：直接在文件夹上右击选择“Git Bash Here"
- - 初始化本地仓库：git init d/PythonB/Git
+ - 初始化本地仓库：git init d/XXX/XXX
  - 下载GitHub工程：git clone https://github.com/rooftopcaller/py-practise.git
  
